@@ -64,7 +64,7 @@ if st.button("✨ Predict Species", help="Click to predict the Iris species base
 
     st.markdown(f"<h2 style='text-align: center; color: #3CB371;'>🎉 Predicted Species: <span style='font-weight: bold;'>{predicted_species}</span></h2>", unsafe_allow_html=True)
     if predicted_species == 'Setosa':
-        st.image("https://upload.wikimedia.org/wikipedia/commons/5/56/Iris_setosa_1.jpg", caption="Iris Setosa", use_column_width=True)
+        st.image("https://en.wikipedia.org/wiki/Iris_setosa", caption="Iris Setosa", use_column_width=True)
     elif predicted_species == 'Versicolor':
         st.image("https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg", caption="Iris Versicolor", use_column_width=True)
     elif predicted_species == 'Virginica':
